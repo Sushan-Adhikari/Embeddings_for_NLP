@@ -264,9 +264,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the NLP community**
 
-[![GitHub stars](https://img.shields.io/github/stars/username/repo-name?style=social)](https://github.com/username/repo-name)
-[![GitHub forks](https://img.shields.io/github/forks/username/repo-name?style=social)](https://github.com/username/repo-name)
-[![GitHub watchers](https://img.shields.io/github/watchers/username/repo-name?style=social)](https://github.com/username/repo-name)
+[![GitHub stars](https://img.shields.io/github/stars/username/repo-name?style=social)](https://github.com/sushan-adhikari/Embeddings_for_NLP)
+[![GitHub forks](https://img.shields.io/github/forks/username/repo-name?style=social)](https://github.com/sushan-adhikari/Embeddings_for_NLP)
+[![GitHub watchers](https://img.shields.io/github/watchers/username/repo-name?style=social)](https://github.com/sushan-adhikari/Embeddings_for_NLP)
 
 </div>
 
@@ -274,9 +274,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Repository Stats
 
-![GitHub repo size](https://img.shields.io/github/repo-size/username/repo-name)
-![GitHub language count](https://img.shields.io/github/languages/count/username/repo-name)
-![GitHub top language](https://img.shields.io/github/languages/top/username/repo-name)
-![GitHub last commit](https://img.shields.io/github/last-commit/username/repo-name)
+![GitHub repo size](https://img.shields.io/github/repo-size/sushan-adhikari/Embeddings_for_NLP)
+![GitHub language count](https://img.shields.io/github/languages/count/sushan-adhikari/Embeddings_for_NLP)
+![GitHub top language](https://img.shields.io/github/languages/top/sushan-adhikari/Embeddings_for_NLP)
+![GitHub last commit](https://img.shields.io/github/last-commit/sushan-adhikari/Embeddings_for_NLP)
 
 **Happy Learning! 🚀**
