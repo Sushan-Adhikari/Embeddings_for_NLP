@@ -19,10 +19,7 @@ Think of embeddings as a **universal translator** that converts human language i
 📁 Repository Structure
 ├── 📄 README.md              # This file
 ├── 📄 notes.md               # Comprehensive course notes
-├── 📁 slides/                # Original course slides from openHPI
-├── 📁 images/                # Visual diagrams and figures
-├── 📁 code-examples/         # Practical implementation examples
-└── 📁 resources/             # Additional learning materials
+            # Additional learning materials
 ```
 
 ## 🚀 Learning Objectives
@@ -39,12 +36,14 @@ By the end of these materials, you will master:
 ## 📋 Course Curriculum
 
 ### 🔢 Part 1: Turning Text into Numbers
+
 - **The Foundation**: Why convert text to numbers?
 - **Historical Methods**: Rule-based systems, Bag-of-Words, TF-IDF
 - **Challenges**: Dimensionality, semantics, context, scalability
 - **Tokenization**: The art of breaking text apart
 
 ### 🧠 Part 2: Improving the Representations
+
 - **The Semantic Revolution**: From counting to understanding
 - **Word2Vec**: Skip-gram and CBOW architectures
 - **Advanced Methods**: GloVe, FastText, Doc2Vec
@@ -52,6 +51,7 @@ By the end of these materials, you will master:
 - **Evaluation**: Metrics and visualization techniques
 
 ### 🗄️ Part 3: Storing Embeddings
+
 - **Vector Databases**: Infrastructure for similarity search
 - **Popular Solutions**: Pinecone, Weaviate, Qdrant, Milvus
 - **Performance Optimization**: Indexing, querying, and scaling
@@ -60,17 +60,20 @@ By the end of these materials, you will master:
 ## 🛠️ Key Technologies Covered
 
 ### Embedding Methods
+
 - **Traditional**: Bag-of-Words, TF-IDF
 - **Neural**: Word2Vec, GloVe, FastText
 - **Contextual**: BERT, Sentence-BERT, RoBERTa
 - **Multimodal**: CLIP, DALL-E
 
 ### Vector Databases
+
 - **Specialized**: Pinecone, Weaviate, Qdrant, Milvus
 - **Extensions**: PostgreSQL+pgvector, Elasticsearch
 - **Cloud**: AWS OpenSearch, Azure Cognitive Search
 
 ### Tools & Libraries
+
 - **Python**: sentence-transformers, transformers, gensim
 - **Visualization**: t-SNE, UMAP, matplotlib
 - **ML Frameworks**: PyTorch, TensorFlow, Hugging Face
@@ -78,21 +81,25 @@ By the end of these materials, you will master:
 ## 🎯 Real-World Applications
 
 ### 🔍 Search & Information Retrieval
+
 - Semantic search beyond keyword matching
 - Document similarity and clustering
 - Question-answering systems
 
 ### 🎵 Recommendation Systems
+
 - Content-based recommendations
 - User preference modeling
 - Cross-domain recommendations
 
 ### 🤖 Customer Support
+
 - Automated FAQ matching
 - Intelligent ticket routing
 - Chatbot response generation
 
 ### 🛡️ Content Moderation
+
 - Hate speech detection
 - Spam identification
 - Misinformation detection
@@ -100,6 +107,7 @@ By the end of these materials, you will master:
 ## 📊 Visual Learning Journey
 
 The notes include 15+ detailed diagrams covering:
+
 - Text-to-vector conversion process
 - Embedding space visualizations
 - Architecture diagrams for Word2Vec, BERT
@@ -109,6 +117,7 @@ The notes include 15+ detailed diagrams covering:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 ```bash
 # Basic knowledge required
 - Python programming
@@ -118,6 +127,7 @@ The notes include 15+ detailed diagrams covering:
 ```
 
 ### Quick Start
+
 1. **Read the Notes**: Start with `notes.md` for comprehensive coverage
 2. **Review Slides**: Check the `slides/` folder for visual presentations
 3. **Try Examples**: Run code examples in `code-examples/`
@@ -126,16 +136,19 @@ The notes include 15+ detailed diagrams covering:
 ### Hands-On Projects
 
 #### 🔰 Beginner Level
+
 - Build a document similarity system
 - Create a basic recommendation engine
 - Implement semantic search for small datasets
 
 #### 🔶 Intermediate Level
+
 - Fine-tune embeddings for specific domains
 - Build a multimodal search system
 - Set up a vector database solution
 
 #### 🔴 Advanced Level
+
 - Create domain-specific embedding models
 - Build distributed vector search systems
 - Implement bias detection and mitigation
@@ -143,6 +156,7 @@ The notes include 15+ detailed diagrams covering:
 ## 📈 Performance Benchmarks
 
 ### Typical Expectations
+
 ```python
 # Query Latency
 Fast: < 10ms (in-memory, small dataset)
@@ -163,11 +177,13 @@ Acceptable: 80-90%
 ## 🧪 Evaluation Framework
 
 ### Intrinsic Evaluation
+
 - **Word Similarity**: Correlation with human judgments
 - **Analogy Tasks**: King - Man + Woman = Queen
 - **Clustering Quality**: Semantic grouping accuracy
 
 ### Extrinsic Evaluation
+
 - **Downstream Tasks**: Classification, NER, sentiment analysis
 - **Search Quality**: Precision, recall, NDCG
 - **User Studies**: Real-world performance metrics
@@ -175,11 +191,13 @@ Acceptable: 80-90%
 ## ⚖️ Ethical Considerations
 
 ### Bias in Embeddings
+
 - **Problem**: Models learn societal biases from training data
 - **Examples**: Gender stereotypes, racial prejudices
 - **Solutions**: Debiasing techniques, diverse training data
 
 ### Privacy Protection
+
 - **Differential Privacy**: Adding noise to protect individuals
 - **Federated Learning**: Training without centralizing data
 - **Secure Computation**: Computing on encrypted embeddings
@@ -187,12 +205,14 @@ Acceptable: 80-90%
 ## 🔬 Future Directions
 
 ### Emerging Trends
+
 - **Multimodal Embeddings**: Vision + Language + Audio
 - **Efficient Models**: Compression and acceleration techniques
 - **Specialized Domains**: Scientific, legal, medical embeddings
 - **Green AI**: Sustainable and energy-efficient approaches
 
 ### Research Frontiers
+
 - **Few-shot Learning**: Learning from minimal examples
 - **Continual Learning**: Adapting to new domains without forgetting
 - **Explainable Embeddings**: Understanding what models learn
@@ -201,21 +221,25 @@ Acceptable: 80-90%
 ## 📚 Additional Resources
 
 ### 📖 Essential Reading
+
 - "Speech and Language Processing" by Jurafsky & Martin
 - "Natural Language Processing with Python" by Steven Bird
 - "Hands-On Machine Learning" by Aurélien Géron
 
 ### 🎓 Online Courses
+
 - [CS224N: Stanford NLP](http://web.stanford.edu/class/cs224n/)
 - [Hugging Face NLP Course](https://huggingface.co/course/)
 - [Fast.ai NLP Course](https://www.fast.ai/)
 
 ### 🔬 Research Venues
+
 - **Conferences**: ACL, EMNLP, NAACL, ICLR, NeurIPS
 - **Journals**: TACL, Computational Linguistics
 - **Preprints**: ArXiv cs.CL section
 
 ### 🛠️ Practical Tools
+
 - [Hugging Face Model Hub](https://huggingface.co/models)
 - [Papers with Code](https://paperswithcode.com/)
 - [Google Colab](https://colab.research.google.com/)
@@ -226,6 +250,7 @@ Acceptable: 80-90%
 We welcome contributions to improve these notes and add practical examples!
 
 ### How to Contribute
+
 1. **Fork** the repository
 2. **Create** a feature branch (`git checkout -b feature/amazing-addition`)
 3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
@@ -233,6 +258,7 @@ We welcome contributions to improve these notes and add practical examples!
 5. **Open** a Pull Request
 
 ### Contribution Ideas
+
 - Add code implementations for concepts
 - Create additional visualization examples
 - Translate notes to other languages
